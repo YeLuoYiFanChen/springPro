@@ -1,0 +1,44 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h4>map返回</h4>
+    <table>
+        <tr>
+            <th>用户名</th>
+            <th>密码</th>
+            <th>性别</th>
+            <th>年龄</th>
+        </tr>
+        <tr>
+            <td>${map.get("username")}</td>
+            <td>${map.get("password")}</td>
+            <td>${map.get("sex")}</td>
+            <td>${map.get("age")}</td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    <h4>Tbuser返回</h4>
+    <table>
+        <tr>
+            <th>用户名</th>
+            <th>密码</th>
+            <th>性别</th>
+            <th>年龄</th>
+        </tr>
+        <tr>
+            <td>${user.username}</td>
+            <td>${user.password}</td>
+            <td>${user.sex}</td>
+            <td>${user.age}</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
